@@ -1,0 +1,16 @@
+Source: blankon-meta-arm
+Section: metapackages
+Priority: optional
+Maintainer: BlankOn Developers <BlankOn@googlegroups.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 4), cdbs
+
+Package: blankon-desktop
+Architecture: armhf
+Depends:  volumeicon-alsa, avahi-autoipd, network-manager-gnome, network-manager-pptp, network-manager-pptp-gnome, gcalctool, lightdm, gedit, gnome-codec-install, gnome-control-center, gnome-media, gnome-menus, gnome-nettool, gnome-session, seahorse,  libpam-gnome-keyring, gnome-system-monitor, gnome-power-manager, gnome-terminal, baobab, nautilus, nautilus-sendto, nautilus-share, rarian-compat, ssh-askpass-gnome, xdg-utils, xdg-user-dirs, xdg-user-dirs-gtk, pulseaudio, pulseaudio-module-gconf, pulseaudio-module-x11, pulseaudio-module-bluetooth, gvfs-fuse, gnome-disk-utility, blankon-sounds, blankon-fontconfig, gnome-session-canberra, libcanberra-gtk-module, libcanberra-gtk3-module, libcanberra-pulse, sound-theme-freedesktop, dmz-cursor-theme, gstreamer0.10-alsa, gstreamer0.10-plugins-base-apps, gstreamer0.10-pulseaudio, libsdl1.2debian, brltty, xcursor-themes, speech-dispatcher,  mousetweaks, at-spi2-core, gnome-screensaver, manokwari, menu, ttf-indonesian, scim-tables-indonesian, firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211,  firmware-iwlwifi, firmware-libertas, firmware-linux-nonfree, firmware-linux, firmware-ralink, firmware-realtek, google-pacman, blankon-gksu-configuration,  file-roller, blankon-settings-gtk-3.0, unrar, net-tools,  bash-completion,  usbutils,  network-manager, network-manager-gnome, notify-osd,  lightdm-webkit-greeter, manokwari-theme-greeter, mutter, fonts-hermit, geoblankon-peta, xserver-common, xserver-xorg-core, xserver-xorg-input-all, 
+Conflicts: gnome-desktop-data, appstream-index, battery-icon, gnome-maps, libgjs0c
+Description: The BlankOn meta arm
+ This package depends on all of the packages in the BlankOn desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.

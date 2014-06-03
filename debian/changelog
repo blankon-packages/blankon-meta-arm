@@ -1,0 +1,6 @@
+blankon-meta-arm (10.00.09-armhf1) tambora; urgency=low
+
+  * Porting to arm
+  * Initial release arm
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Tue, 03 Jun 2014 23:21:21 +0700
